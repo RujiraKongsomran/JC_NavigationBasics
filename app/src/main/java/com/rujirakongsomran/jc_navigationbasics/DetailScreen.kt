@@ -23,7 +23,7 @@ fun DetailScreen(
     ) {
         Text(
             modifier = Modifier.clickable {
-                navController.navigate(route = Screen.Home.route)
+                navController.popBackStack()
             },
             text = "Detail",
             color = Color.Red,
