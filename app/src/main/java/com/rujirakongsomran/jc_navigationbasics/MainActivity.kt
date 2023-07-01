@@ -19,6 +19,7 @@ class MainActivity : ComponentActivity() {
             JC_NavigationBasicsTheme {
                 // A surface container using the 'background' color from the theme
                 navController = rememberNavController()
+                SetupNavGraph(navHostController = navController)
             }
         }
     }
